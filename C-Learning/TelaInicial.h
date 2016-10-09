@@ -67,9 +67,10 @@ namespace CLearning {
 			this->button1->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 11, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button1->Location = System::Drawing::Point(1214, 7);
+			this->button1->Location = System::Drawing::Point(1242, 0);
+			this->button1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(36, 30);
+			this->button1->Size = System::Drawing::Size(48, 37);
 			this->button1->TabIndex = 0;
 			this->button1->Text = L"X";
 			this->button1->UseVisualStyleBackColor = false;
@@ -85,9 +86,10 @@ namespace CLearning {
 			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button2->ForeColor = System::Drawing::Color::White;
-			this->button2->Location = System::Drawing::Point(352, 196);
+			this->button2->Location = System::Drawing::Point(353, 197);
+			this->button2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(193, 52);
+			this->button2->Size = System::Drawing::Size(193, 51);
 			this->button2->TabIndex = 1;
 			this->button2->Text = L"Start";
 			this->button2->UseVisualStyleBackColor = false;
@@ -95,13 +97,14 @@ namespace CLearning {
 			// 
 			// TelaInicial
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
-			this->ClientSize = System::Drawing::Size(1269, 935);
+			this->ClientSize = System::Drawing::Size(1295, 935);
 			this->Controls->Add(this->button2);
 			this->Controls->Add(this->button1);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
+			this->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Name = L"TelaInicial";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"TelaInicial";

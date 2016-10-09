@@ -30,6 +30,9 @@
     <ClCompile Include="TelaBasico1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MenuBasico.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TelaInicial.h">
@@ -44,5 +47,19 @@
     <ClInclude Include="TelaBasico1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MenuBasico.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TelaBasico1.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaDeConteudo.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaInicial.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

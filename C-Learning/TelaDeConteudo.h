@@ -80,9 +80,10 @@ namespace CLearning {
 			this->button1->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 11, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button1->Location = System::Drawing::Point(1214, 8);
+			this->button1->Location = System::Drawing::Point(1194, 4);
+			this->button1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(36, 30);
+			this->button1->Size = System::Drawing::Size(48, 37);
 			this->button1->TabIndex = 1;
 			this->button1->Text = L"X";
 			this->button1->UseVisualStyleBackColor = false;
@@ -98,7 +99,8 @@ namespace CLearning {
 			this->bt_basico->Font = (gcnew System::Drawing::Font(L"Consolas", 20.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->bt_basico->ForeColor = System::Drawing::Color::Lime;
-			this->bt_basico->Location = System::Drawing::Point(140, 255);
+			this->bt_basico->Location = System::Drawing::Point(140, 256);
+			this->bt_basico->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->bt_basico->Name = L"bt_basico";
 			this->bt_basico->Size = System::Drawing::Size(252, 51);
 			this->bt_basico->TabIndex = 2;
@@ -113,7 +115,8 @@ namespace CLearning {
 			this->button3->BackColor = System::Drawing::Color::Transparent;
 			this->button3->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button3->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-			this->button3->Location = System::Drawing::Point(140, 335);
+			this->button3->Location = System::Drawing::Point(140, 334);
+			this->button3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(252, 51);
 			this->button3->TabIndex = 3;
@@ -125,7 +128,8 @@ namespace CLearning {
 			this->button4->BackColor = System::Drawing::Color::Transparent;
 			this->button4->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button4->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-			this->button4->Location = System::Drawing::Point(140, 490);
+			this->button4->Location = System::Drawing::Point(140, 491);
+			this->button4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(252, 51);
 			this->button4->TabIndex = 5;
@@ -137,9 +141,10 @@ namespace CLearning {
 			this->button5->BackColor = System::Drawing::Color::Transparent;
 			this->button5->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button5->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-			this->button5->Location = System::Drawing::Point(139, 411);
+			this->button5->Location = System::Drawing::Point(140, 412);
+			this->button5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->button5->Name = L"button5";
-			this->button5->Size = System::Drawing::Size(252, 51);
+			this->button5->Size = System::Drawing::Size(250, 51);
 			this->button5->TabIndex = 4;
 			this->button5->Text = L"button5";
 			this->button5->UseVisualStyleBackColor = false;
@@ -149,7 +154,8 @@ namespace CLearning {
 			this->button6->BackColor = System::Drawing::Color::Transparent;
 			this->button6->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button6->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-			this->button6->Location = System::Drawing::Point(141, 647);
+			this->button6->Location = System::Drawing::Point(140, 568);
+			this->button6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->button6->Name = L"button6";
 			this->button6->Size = System::Drawing::Size(252, 51);
 			this->button6->TabIndex = 7;
@@ -161,7 +167,8 @@ namespace CLearning {
 			this->button7->BackColor = System::Drawing::Color::Transparent;
 			this->button7->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->button7->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-			this->button7->Location = System::Drawing::Point(140, 568);
+			this->button7->Location = System::Drawing::Point(141, 648);
+			this->button7->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(252, 51);
 			this->button7->TabIndex = 6;
@@ -173,17 +180,18 @@ namespace CLearning {
 			this->lb_Menu->AutoSize = true;
 			this->lb_Menu->Font = (gcnew System::Drawing::Font(L"Consolas", 10, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->lb_Menu->Location = System::Drawing::Point(538, 335);
+			this->lb_Menu->Location = System::Drawing::Point(717, 412);
+			this->lb_Menu->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->lb_Menu->Name = L"lb_Menu";
-			this->lb_Menu->Size = System::Drawing::Size(0, 17);
+			this->lb_Menu->Size = System::Drawing::Size(0, 20);
 			this->lb_Menu->TabIndex = 8;
 			// 
 			// TelaDeConteudo
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
-			this->ClientSize = System::Drawing::Size(1279, 935);
+			this->ClientSize = System::Drawing::Size(1245, 926);
 			this->Controls->Add(this->lb_Menu);
 			this->Controls->Add(this->button6);
 			this->Controls->Add(this->button7);
@@ -193,6 +201,7 @@ namespace CLearning {
 			this->Controls->Add(this->bt_basico);
 			this->Controls->Add(this->button1);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
+			this->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Name = L"TelaDeConteudo";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"TelaDeConteudo";

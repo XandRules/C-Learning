@@ -1,0 +1,17 @@
+﻿  Controle.cpp
+c:\users\leonardo\documents\oo\c-learning\c-learning\TelaBasico1.h(195): warning C4390: ';': empty controlled statement found; is this the intent?
+  MenuBasico.cpp
+  Principal.cpp
+c:\users\leonardo\documents\oo\c-learning\c-learning\TelaBasico1.h(195): warning C4390: ';': empty controlled statement found; is this the intent?
+Principal.cpp(10): warning C4551: function call missing argument list
+Principal.cpp(11): warning C4551: function call missing argument list
+  TelaBasico1.cpp
+c:\users\leonardo\documents\oo\c-learning\c-learning\TelaBasico1.h(195): warning C4390: ';': empty controlled statement found; is this the intent?
+  TelaDeConteudo.cpp
+  TelaInicial.cpp
+  Generating Code...
+c:\users\leonardo\documents\oo\c-learning\c-learning\controle.cpp(157): warning C4715: 'Controle::gerenciarEscolha': not all control paths return a value
+  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
+  Controle.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  C-Learning.vcxproj -> C:\Users\Leonardo\Documents\OO\C-Learning\C-Learning\x64\Debug\C-Learning.exe
+  C-Learning.vcxproj -> C:\Users\Leonardo\Documents\OO\C-Learning\C-Learning\x64\Debug\C-Learning.pdb (Partial PDB)

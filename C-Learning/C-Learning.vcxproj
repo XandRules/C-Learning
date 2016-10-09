@@ -131,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Controle.cpp" />
+    <ClCompile Include="MenuBasico.cpp" />
     <ClCompile Include="Principal.cpp" />
     <ClCompile Include="TelaBasico1.cpp" />
     <ClCompile Include="TelaDeConteudo.cpp" />
@@ -138,6 +139,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Controle.h" />
+    <ClInclude Include="MenuBasico.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="TelaBasico1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -149,6 +153,9 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="MenuBasico.resx">
+      <DependentUpon>MenuBasico.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TelaBasico1.resx">
       <DependentUpon>TelaBasico1.h</DependentUpon>
     </EmbeddedResource>

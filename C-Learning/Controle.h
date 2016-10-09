@@ -9,6 +9,7 @@ using namespace System::Windows::Forms;
 #include "TelaDeConteudo.h"
 #include "ControlarEscolha.h"
 #include "TelaBasico1.h"
+#include "MenuBasico.h"
 
 class Controle
 {
