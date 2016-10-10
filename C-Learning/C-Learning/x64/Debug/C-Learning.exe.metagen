@@ -1,0 +1,43 @@
+  CLearning.MenuBasico.resources - Embedded, ContainedInManifestFile, 
+  CLearning.TelaBasico1.resources - Embedded, ContainedInManifestFile, 
+  CLearning.TelaDeConteudo.resources - Embedded, ContainedInManifestFile, 
+  CLearning.TelaInicial.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly C-Learning, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class CLearning.TelaInicial: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setStatus(Int32): PrivateScope, Public, HideBySig
+    getStatus(): PrivateScope, Public, HideBySig
+Class CLearning.TelaDeConteudo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setStatus(Int32): PrivateScope, Public, HideBySig
+    getStatus(): PrivateScope, Public, HideBySig
+Class CLearning.TelaBasico1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setStatus(Int32): PrivateScope, Public, HideBySig
+    getStatus(): PrivateScope, Public, HideBySig
+Class CLearning.MenuBasico: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setStatus(Int32): PrivateScope, Public, HideBySig
+    getStatus(): PrivateScope, Public, HideBySig
